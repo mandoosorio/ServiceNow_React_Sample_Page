@@ -1,0 +1,65 @@
+.main {
+    background-color: #1d3d4e;
+}
+
+.header {
+    float: left;
+    text-align: left;
+    background: #1d3d4e;
+    color: white;
+}
+
+#headerContainer {
+    background: #1d3d4e;
+}
+
+.headerInput {
+    float: right;
+    margin-top: 2%;
+    width: 25%;
+    background: #1d3d4e;
+}
+
+#globalInput {
+    width: 70%;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    color: black;
+}
+#globalSearch {
+    padding: 6px;
+    background: rgb(15,36,47);
+    border-style: none;
+    padding: 2%;
+}
+
+.topnav {
+    clear: both;
+    overflow: hidden;
+    background-color: rgb(15,36,47);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(15,36,47);
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(19, 45, 59);
+    color: goldenrod;
+    border-bottom: 3px solid goldenrod;
+  }
+
+  .topnav a.active {
+    background-color: rgb(15,36,47);
+    color: goldenrod;
+    border-bottom: 3px solid goldenrod;
+  }

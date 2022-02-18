@@ -7,6 +7,41 @@
   pointer-events: none;
 }
 
+input {
+  background-color: white;
+}
+
+#mainHeader {
+  text-align: center;
+  clear: both;
+  color: white;
+  font-family: Garamond, serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+* {
+  color: white;
+  font-family: "DMSerifText-Regular", serif;
+  font-weight: normal;
+  /* background-color: #1d3d4e; */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d3d4e;
+  background-image: linear-gradient(
+      to right,
+      rgba(29,61,78,0.35),
+      #1d3d4e
+  ),
+  url("./assets/imgs/background-texture.png");
+  background-attachment: fixed;
+  background-position: top left;
+  background-size: 62rem auto;
+  background-repeat: repeat-y;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

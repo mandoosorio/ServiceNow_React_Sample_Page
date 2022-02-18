@@ -1,0 +1,44 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    color: black;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(240, 238, 238);
+  }
+
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+
+.tableDiv {
+    margin: 5%;
+    margin-bottom: 10%;
+}
+
+.tableHeader {
+  background-color: white;
+  color: black;
+  padding: 2%;
+  font-size: xx-large;
+}
+
+#officerCount {
+  background-color: rgb(240, 238, 238);
+  color: black;
+  font-size: large;
+  vertical-align: top;
+  padding: 5px;
+}
